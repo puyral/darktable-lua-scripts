@@ -77,7 +77,6 @@ mfilter.ids = dt.new_widget("entry") {
 mfilter.bt = dt.new_widget("button") {
   label = "Search",
   tooltip = "search for the selected images",
-  sensitive = false,
   clicked_callback = function()
     filter_collection_by_image_ids(mfilter.ids.text)
   end
